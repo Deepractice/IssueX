@@ -1,0 +1,11 @@
+# @issuexjs/core
+
+## 0.2.0
+
+### Minor Changes
+
+- 3d5894f: Initial release of IssueX — structured issue tracking for AI agents.
+
+  - @issuexjs/core: types, store interfaces, provider abstraction
+  - issuexjs: client with full CRUD for issues, comments, labels
+  - @issuexjs/node: SQLite provider for Node.js/Bun
