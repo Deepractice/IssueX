@@ -5,7 +5,8 @@
   "private": true,
   "type": "module",
   "workspaces": [
-    "packages/*"
+    "packages/*",
+    "bdd"
   ],
   "scripts": {
     "build": "turbo build",
@@ -16,6 +17,7 @@
     "format:check": "biome format .",
     "typecheck": "turbo typecheck",
     "test": "turbo test",
+    "test:bdd": "cd bdd && bun run test",
     "clean": "turbo clean && rm -rf node_modules",
     "prepare": "lefthook install || true",
     "version": "changeset version",
