@@ -12,6 +12,6 @@
     "issuexjs": "workspace:*"
   },
   "devDependencies": {
-    "@deepracticex/bdd": "^0.2.0"
+    "@deepracticex/bdd": "^0.3.0"
   }
 }

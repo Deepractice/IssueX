@@ -25,7 +25,7 @@
         "issuexjs": "workspace:*",
       },
       "devDependencies": {
-        "@deepracticex/bdd": "^0.2.0",
+        "@deepracticex/bdd": "^0.3.0",
       },
     },
     "packages/core": {
@@ -152,7 +152,7 @@
 
     "@cucumber/messages": ["@cucumber/messages@27.2.0", "", { "dependencies": { "@types/uuid": "10.0.0", "class-transformer": "0.5.1", "reflect-metadata": "0.2.2", "uuid": "11.0.5" } }, "sha512-f2o/HqKHgsqzFLdq6fAhfG1FNOQPdBdyMGpKwhb7hZqg0yZtx9BVqkTyuoNk83Fcvk3wjMVfouFXXHNEk4nddA=="],
 
-    "@deepracticex/bdd": ["@deepracticex/bdd@0.2.0", "", { "dependencies": { "@cucumber/cucumber-expressions": "^18.0.1", "@cucumber/gherkin": "^31.0.0", "@cucumber/messages": "^27.2.0" } }, "sha512-hFLbobvQFx8IQA/lno4VQl0JjBzT09lTSFr5YxmGdHZ03JB7+46OeEwnCRtrwXlRRkDCjciQQ9zL35HI84YmJg=="],
+    "@deepracticex/bdd": ["@deepracticex/bdd@0.3.0", "", { "dependencies": { "@cucumber/cucumber-expressions": "^18.0.1", "@cucumber/gherkin": "^31.0.0", "@cucumber/messages": "^27.2.0" } }, "sha512-JNljvjAJIZknE8MBjzLfhPr/WRGe/hz6d+nYaEY7TqPVtWiXRPnN2iT8vP7DqTdDqIOw6B5NiUHh8g+V5Ffy+A=="],
 
     "@emnapi/core": ["@emnapi/core@1.8.1", "", { "dependencies": { "@emnapi/wasi-threads": "1.1.0", "tslib": "^2.4.0" } }, "sha512-AvT9QFpxK0Zd8J0jopedNm+w/2fIzvtPKPjqyw9jwvBaReTTqPBk9Hixaz7KbjimP+QNz605/XnjFcDAL2pqBg=="],
 
