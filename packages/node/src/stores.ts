@@ -60,11 +60,11 @@ function rowToIssue(row: IssueRow, labels: string[]): Issue {
 }
 
 function getIssueLabels(db: Database, issueId: string): string[] {
-  const rows = db.all<{ label_id: string }>(
-    "SELECT label_id FROM issue_labels WHERE issue_id = ?",
+  const rows = db.all<{ name: string }>(
+    "SELECT l.name FROM issue_labels il JOIN labels l ON il.label_id = l.id WHERE il.issue_id = ?",
     issueId
   );
-  return rows.map((r) => r.label_id);
+  return rows.map((r) => r.name);
 }
 
 // --- SQLite Store Implementations ---

@@ -1,6 +1,6 @@
 {
   "name": "@issuexjs/node",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "IssueX Node.js/Bun SQLite Provider",
   "repository": {
     "type": "git",
