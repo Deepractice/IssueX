@@ -1,6 +1,6 @@
 {
   "name": "@issuexjs/core",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "IssueX Core - Types, interfaces and provider abstractions",
   "repository": {
     "type": "git",
